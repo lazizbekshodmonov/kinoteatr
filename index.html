@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="./css/index.min.css">
+</head>
+<body>
+      <div class="container">
+            <div class="movie-of-number input-item">
+                  <!-- <span class="input-name">Qancha film ko'rgansiz?</span> -->
+                  <input type="number" class="num-movies input" placeholder="Qancha film ko'rgansiz?" input>
+                  <p class="border-bottom"></p>
+            </div>
+            <div class="movie-of-name input-item">
+                  <!-- <span class="input-name">Oxirgi ko'rgan kinoyingiz nomi?</span> -->
+                  <input type="text" class="name-movies input" placeholder="Oxirgi ko'rgan kinoyingiz nomi?" input>
+                  <p class="border-bottom"></p>
+            </div>
+            <div class="movie-of-ball input-item">
+                  <!-- <span class="input-name">Uni qanday baholaysiz?</span> -->
+                  <input type="number" class="ball-movies input" placeholder="Uni qanday baholaysiz?" input>
+                  <p class="border-bottom"></p>
+            </div>
+          <div id="submit">Yuborish</div>
+      </div>
+      <div class="theResult">
+           <div class="movies-number div-flex">
+                 <p>Ko'rilgan kinolar soni: <span id="movies-number-item" class="input-result"></span></p>
+           </div> 
+           <div class="movies-number div-flex">
+                 <p>Oxirgi ko'rilgan kino: <span id="moviles-name-item" class="input-result"></span></p>
+           </div> 
+           <div class="movies-ball div-flex">
+                 <p>Oxirgi ko'rilgan kinoga berilgan baho: <span id="movies-ball-item" class="input-result"></span></p>
+           </div>
+           <div class="user-status"></div>
+           <div class="movies-ball div-flex">
+                  <div id="ok">Ok</div>
+           </div>
+           
+      </div>
+      <div class="error">
+            <p>Nimadir xato kiritilgan ❌</p>
+            <div id="errok">Ok</div>
+      </div>
+      <script src="./js/index.js"></script>
+</body>
+</html>
